@@ -1,40 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(7)
+  const [count, setCount] = useState(7);
 
-  let addValue = ()=>{
-    if(count< 26){
+  let addValue = () => {
+    if (count < 26) {
       setCount(count + 1);
     }
-  }
-  let RemoveValue = ()=>{
-    if(count > 0){
+  };
+  let RemoveValue = () => {
+    if (count > 0) {
       setCount(count - 1);
     }
-  }
+  };
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={addValue}>Add {count}
-        </button>
-        <button onClick={RemoveValue}>Remove {count}
-        </button>
-
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <h1>Welcome To The Counter App</h1>
+      <div className="screen">
+        <h2 className="count">{count}</h2>
+        <div className="buttons">
+          <button className="red" onClick={RemoveValue}>Remove ( - )</button>
+          <button className="green" onClick={addValue}>Add ( + )</button>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h3>Thala* for a Reason...</h3>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
