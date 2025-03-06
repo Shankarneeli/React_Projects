@@ -1,3 +1,3 @@
-Beginner React Project using VITE 
+Beginner React Project using VITE.
 
 ![Project Preview](./CounterApp.png)
