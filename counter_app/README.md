@@ -4,6 +4,6 @@ CounterApp - A React Project Built using VITE package Bundler and used Tailwind 
 
 ## Live Demo
 
-[![Project Image](./CounterApp.png))]https://counterapp-shankar.netlify.app/
+[![Project Image](./CounterApp.png))](https://counterapp-shankar.netlify.app/)
 
 Click the image above to view the live demo.
