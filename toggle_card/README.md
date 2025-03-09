@@ -1,7 +1,9 @@
-# React + Vite
+# Project Title
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Toggle Card Button - A React Project Built using VITE package Bundler.
 
-Currently, two official plugins are available:
+## Live Demo
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/437346b8-aa15-49ba-9568-d9ee11dd3438/deploy-status)](https://app.netlify.com/sites/togglecard-shankar/deploys)
+[![Project Image](./ToggleCard.png)](https://app.netlify.com/sites/togglecard-shankar/)
+
+Click the image above to view the live demo.
