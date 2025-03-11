@@ -18,8 +18,8 @@ function App() {
      <div className={toggle == true? "center" : "d-none"}>
         <img src={cc} className='center-img' alt="Choclate Cake" />
         <div className="padding">
-        <h3>This is a Toggle Card</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem vitae nostrum numquam maxime dolorem est.adipisicing </p>
+        <h3> Choco Velvet Cake </h3>
+        <p>Velvety dark chocolate layers 🍫 infused with rich ganache 🍫, offering a symphony of decadence 🎶 with every mouthful. Pure delight! ✨ </p>
         </div>
      </div>
 
