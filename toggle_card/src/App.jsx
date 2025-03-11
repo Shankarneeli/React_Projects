@@ -7,8 +7,7 @@ function App() {
 
   function toggleHandler(){
     console.log("Toggle Button Clicked...");
-    
-    if(toggle == true){
+    if(toggle){
       setToggle(false);
     }else{
       setToggle(true);
@@ -24,7 +23,7 @@ function App() {
         </div>
      </div>
 
-      <button className='toggle' onClick={toggleHandler}>Toggle Here !</button>
+      <button className='toggle' onClick={toggleHandler}>Toggle Here !({toggle == true? 'On': 'Off'})</button>
     </>
   )
 }
