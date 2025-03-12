@@ -1,0 +1,96 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.screen{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* align-items: center; */
+   
+}
+
+@media (min-width: 875px){
+    .footerBox{
+        padding: 13px 18px;
+        background-color: wheat;
+        border: none;
+        border-radius: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display:flex;
+        /* align-items: center;
+        justify-content: center; */
+        gap: 18px;
+    } 
+}
+@media (max-width :875px){
+    .footerBox{
+        padding: 13px 15px;
+        background-color: wheat;
+        border: none;
+        border-radius: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display:flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+        gap: 10px;
+    }
+
+}
+.btn{
+    padding: 7px 19px;
+    border-radius: 14px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.10s;
+}
+.btn:hover{
+    transform: scale(1.07);
+    /* box-shadow: 10px 5px black  6px; */
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.green{
+    background-color: green;
+    color: white;
+}
+.blue{
+    background-color: blue;
+    color: white;
+}
+.olive{
+    background-color: olive;
+    color: white;
+}
+.orange{
+    background-color: orange;
+    color: white;
+}
+.violet{
+    background-color: rgb(168, 49, 168);
+    color: white;
+}
+.lavender{
+    background-color: rgb(129, 129, 234);
+    color: white;
+}
+.pink{
+    background-color: rgb(220, 128, 144);
+    color: white;
+}
