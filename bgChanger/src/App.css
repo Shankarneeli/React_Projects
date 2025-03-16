@@ -12,7 +12,25 @@ html, body{
    
 }
 
-@media (min-width: 875px){
+.footerBox{
+    padding: 13px 18px;
+    background-color: wheat;
+    border: none;
+    border-radius: 14px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 18px;
+    transition: 1.1s;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.2);
+
+} 
+
+@media (min-width: 900px){
     .footerBox{
         padding: 13px 18px;
         background-color: wheat;
@@ -28,7 +46,7 @@ html, body{
         gap: 18px;
     } 
 }
-@media (max-width :875px){
+@media (max-width :900px){
     .footerBox{
         padding: 13px 15px;
         background-color: wheat;
@@ -43,6 +61,8 @@ html, body{
         /* align-items: center;
         justify-content: center; */
         gap: 10px;
+        box-shadow: 9px 12px 8px rgba(0, 0, 0, 0.2)
+
     }
 
 }
@@ -52,7 +72,11 @@ html, body{
     border: none;
     align-items: center;
     cursor: pointer;
-    transition: 0.10s;
+    transition: 0.17s;
+    font-weight: 800;
+    color: wheat;
+
+
 }
 .btn:hover{
     transform: scale(1.07);
@@ -60,37 +84,29 @@ html, body{
 }
 .black{
     background-color: black;
-    color: white;
 }
 .red{
     background-color: red;
-    color: white;
 }
 .green{
     background-color: green;
-    color: white;
 }
 .blue{
-    background-color: blue;
-    color: white;
+    background-color: #063970;
 }
 .olive{
     background-color: olive;
-    color: white;
 }
 .orange{
-    background-color: orange;
-    color: white;
+    background-color: #ec841a;
 }
 .violet{
-    background-color: rgb(168, 49, 168);
-    color: white;
+    background-color: #a731e2;
 }
 .lavender{
-    background-color: rgb(129, 129, 234);
+    background-color: #C3B1E1;
     color: white;
 }
 .pink{
-    background-color: rgb(220, 128, 144);
-    color: white;
+    background-color: #b85b9f;
 }
