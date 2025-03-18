@@ -6,12 +6,18 @@ function App() {
 
   let addValue = () => {
     if (count < 26) {
-      setCount(count + 1);
+      // setCount(count + 1);
+      setCount((prev)=> prev + 1);
+      //Better way of writing optimized code, as it also supports Async React State
     }
   };
   let RemoveValue = () => {
     if (count > 0) {
-      setCount(count - 1);
+      // setCount(count - 1);
+      setCount((prev)=> prev - 1);
+      //Better way of writing optimized code, as it also supports Async React State
+
+
     }
   };
 
