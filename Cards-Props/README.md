@@ -1,6 +1,6 @@
 # Project Title
 
-Check out the Food Items menu with soothing colors & minimal Animations, Done using Props feature from React- A React Project Built using VITE package Bundler.
+Check out the Food Items menu with soothing Images & minimal Animations, Done using Props feature from React- A React Project Built using VITE package Bundler.
 Don't forget to checkout ur Console after every cursor clicked.
 
 ## Live Demo
