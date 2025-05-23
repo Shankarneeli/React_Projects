@@ -1,4 +1,3 @@
-````markdown
 # 🍽️ UI Cloud Kitchen - Restaurant Menu Card App
 
 A modern, elegant React application that displays restaurant menu cards with integrated **search** and **filtering** functionality. Built to deliver a seamless, minimal UI inspired by real-world food delivery platforms.
@@ -110,7 +109,7 @@ index.css / App.css       // Styling files
 
 ## 📸 Screenshot
 
-[![Project Image](./menu-Screenshot.png)]
+![Project Image](./menu-Screenshot.png)
 
 ---
 
