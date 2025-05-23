@@ -15,7 +15,7 @@ Here’s a list of all the React goodies included in this repo. Click on the �
 
 | 🚀 Project Name     | 🧠 Description                                                                         | 🌍 Live Demo                                              |
 | ------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| 🧩 **Cards-Props**  | A clean React app demonstrating how props work to display card components dynamically. | [Live Demo 🔗](https://menu-item-cards-shankar.netlify.app/) |
+| 🧩 **Restaurants-Menu**  |A modern React app to browse, search, and filter restaurants with elegant card UI. | [Live Demo 🔗](https://ui-cloud-kitchen.netlify.app/) |
 | 🎨 **bgChanger**    | A simple but fun background color changer using React's `useState`.                    | [Live Demo 🔗](https://bg-changer-shankar.netlify.app/)  |
 | 🔢 **counter\_app** | A basic counter app to explore hooks like `useState` and functional updates.           | [Live Demo 🔗](https://counterapp-shankar.netlify.app/) |
 | 🔄 **toggle\_card** | Learn toggling components' visibility and conditional rendering.                       | [Live Demo 🔗](https://togglecard-shankar.netlify.app/) |
